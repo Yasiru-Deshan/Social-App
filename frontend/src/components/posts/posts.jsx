@@ -3,6 +3,8 @@ import "./posts.css";
 import { MoreVert} from "@material-ui/icons";
 
 function Posts() {
+
+     
     return (
         <div className="post">
             <div className="postwrapper">
