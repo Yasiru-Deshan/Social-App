@@ -39,117 +39,117 @@ function Sidebar() {
                 <ul className="sidebarfriendlist">
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                      <li className="sidebarfriend">
                          <img className="sidebarfriendimg" src="/assets/2.jpg" alt=""/>
-                         <span className="sidebarfriendname">Deshan</span>
+                         <span className="sidebarfriendname">Louis Tomillson</span>
                      </li>
 
                 </ul>

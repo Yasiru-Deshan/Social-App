@@ -82,6 +82,14 @@
     cursor: pointer;
 }
 
+.loveicon{
+    width:26px;
+    height: 26px;
+    margin-right: 5px;
+    
+    cursor: pointer;
+}
+
 .postlikecounter{
     font-size: 15px;
 }

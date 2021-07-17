@@ -29,6 +29,7 @@ function Posts() {
                     <div className="postbottomleft">
                         <img className="likeicon" src="assets/likes.jpg" alt=""/>
                         <img className="hearticon" src="assets/heart.jpg" alt=""/>
+                        <img className="loveicon" src="assets/loves.jpg" alt=""/>
                         <span className="postlikecounter">32 people liked this</span>
                     </div>
                     <div className="postbottomright">
