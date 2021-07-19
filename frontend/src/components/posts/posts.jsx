@@ -1,8 +1,24 @@
 import React from 'react';
 import "./posts.css";
 import { MoreVert} from "@material-ui/icons";
+import { useEffect,useState } from "react";
+import axios from 'axios';
 
-function Posts() {
+function Posts({post}) {
+
+    const [user,setUser] = useState({});
+
+    useEffect(()=>{
+
+        const fetchUser = async () =>{
+           const res = await axios.get(`users/${post.userId}`);
+           setUser(res.data);
+        }
+    
+           
+           fetchUser();
+    },[]);  
+
 
      
     return (
@@ -12,9 +28,11 @@ function Posts() {
 
                     <div className="posttopleft">
 
-                        <img src="/assets/1.jpg" className="postprofileimg" alt=""/>
-                        <span className="postusername">Yasiru Deshan</span>
-                        <span className="postdate">5 minutes ago</span>
+                        <img src={user.profilePicture} className="postprofileimg" alt=""/>
+                        <span className="postusername">
+                            {user.username}
+                        </span>
+                        <span className="postdate">{post.date}</span>
                     </div>
                     <div className="posttopright">
 
