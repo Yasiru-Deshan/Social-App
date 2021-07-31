@@ -4,6 +4,7 @@ import { MoreVert} from "@material-ui/icons";
 import { useEffect,useState } from "react";
 import axios from 'axios';
 import { format} from "timeago.js";
+import { Link } from "react-router-dom";
 
 function Posts({post}) {
 
@@ -17,17 +18,17 @@ function Posts({post}) {
         setlike(isliked ? like-1 : like+1);
         setisLiked(!isliked);
     }
-
+  
     useEffect(()=>{
 
         const fetchUser = async () =>{
-           const res = await axios.get(`users/${post.userId}`);
+           const res = await axios.get(`/users?userId=${post.userId}`);
            setUser(res.data);
         }
     
            
            fetchUser();
-    },[]);  
+    },[post.userId]);  
 
 
      
@@ -37,10 +38,11 @@ function Posts({post}) {
                 <div className="posttop">
 
                     <div className="posttopleft">
-
+                      <Link to={`profile/${user.username}`}>
                         <img src={user.profilePicture || PF+"noprofile.png"} 
                              className="postprofileimg" 
                              alt=""/>
+                             </Link>
                         <span className="postusername">
                             {user.username}
                         </span>
@@ -53,16 +55,16 @@ function Posts({post}) {
                 </div>
                 <div className="postcenter">
 
-                    <span className="postText">{post.desc}</span>
+                    <span className="postText">{post.desc}</span> 
                     <img className="postimg" 
-                         src="assets/3.jpg" alt=""/>
+                         src={`${PF}3.jpg`}  alt=""/>
                 </div>
 
                 <div className="postbottom">
                     <div className="postbottomleft">
-                        <img className="likeicon" src="assets/likes.jpg" onClick={likehandler} alt=""/>
-                        <img className="hearticon" src="assets/heart.jpg" onClick={likehandler}alt=""/>
-                        <img className="loveicon" src="assets/loves.jpg" onClick={likehandler} alt=""/>
+                        <img className="likeicon" src={`${PF}likes.jpg`} onClick={likehandler} alt=""/>
+                        <img className="hearticon" src={`${PF}heart.jpg`}  onClick={likehandler}alt=""/>
+                        <img className="loveicon" src={`${PF}loves.jpg`}  onClick={likehandler} alt=""/>
                         <span className="postlikecounter">{like} people liked this</span>
                     </div>
                     <div className="postbottomright">
