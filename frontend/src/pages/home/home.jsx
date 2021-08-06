@@ -5,7 +5,7 @@ import Sidebar from '../../components/sidebar/sidebar';
 import Topbar from '../../components/topbar/topbar';
 import "./home.css"
 
-function home() {
+function Home() {
     return (
         <div>
             <Topbar/>
@@ -19,4 +19,4 @@ function home() {
     )
 }
 
-export default home;
+export default Home;
